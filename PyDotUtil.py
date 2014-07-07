@@ -1,7 +1,7 @@
 import glob, os, argparse
 
 parser = argparse.ArgumentParser(description='Simple dotfiles symlinking')
-parser.add_argument('-f', '--force', help='Force overwriting of existing files', required=False, action='store_true')
+# parser.add_argument('-f', '--force', help='Force overwriting of existing files', required=False, action='store_true')
 parser.add_argument('-r', '--remove', help='Unsymlink the files', required=False, action='store_true')
 args = vars(parser.parse_args())
 
