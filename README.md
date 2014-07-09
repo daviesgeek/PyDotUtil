@@ -11,6 +11,22 @@ First, clone this repo:
 ```bash
 git clone git@github.com:daviesgeek/PyDotUtil.git <your destination folder>
 ```
-Then create a `home` folder. Everything in this folder will by symlinked into your home directory.
+Then create a `castle` folder. Your dot files are your castle, the same as [Homesick](https://github.com/technicalpickles/homesick) Everything in this folder will by symlinked into your home directory.
 
-To remove the symlinks, use the `-r/--remove` flag.
+## Usage
+
+```bash
+PyDotUtil [-h] {config, link, unlink}
+```
+
+#### config
+
+`-d, --dir` The directory that PyDotUtil will read from
+
+#### link
+
+Run without any options to link everything from the directory into your home folder
+
+#### unlink
+
+Run without any options to unlink everything from the directory into your home folder
