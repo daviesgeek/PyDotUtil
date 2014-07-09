@@ -3,7 +3,7 @@ PyDotUtil
 
 Simple Python script to manage DotFiles.
 
-PyDotUtil symlinks everything in a `home` folder in the same directory as your install. I have only tested this on OS X, but there's no reason why it won't work on a Linux install. Feel free to submit pull request for cross-platform.
+PyDotUtil symlinks everything in a `castle` folder in the same directory as your install. I have only tested this on OS X, but there's no reason why it won't work on a Linux install. Feel free to submit pull request for cross-platform.
 
 ## Install
 
